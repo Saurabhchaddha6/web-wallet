@@ -51,14 +51,14 @@ const WalletGenerator = () => {
 
 
         <div>
-            <button onClick={createSolWallet}>Add wallet</button>
+            <button onClick={createSolWallet}>Add Sol wallet</button>
         </div>
         <div>
             {publicKeys.map(p => <div>
                 {p.toBase58()}</div>)}
         </div>
         <div>
-            <button onClick={createEthWallet}>Add wallet</button>
+            <button onClick={createEthWallet}>Add Eth wallet</button>
         </div>
         <div>
             {address.map(p => <div>
